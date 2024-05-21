@@ -345,20 +345,22 @@ body .bg-color {
 
 
 /* validate section start */
-.validate-section .swiper-btn {
+.swiper-btn {
   color: rgb(122, 134, 154);
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.validate-section .swiper-btn:hover{
-color: blue ;
+
+.swiper-btn:hover {
+  color: blue;
 }
 
-.validate-section .swiper-pagination-bullet .swiper-pagination-bullet-active{
+.validate-section .swiper-pagination-bullet .swiper-pagination-bullet-active {
   background-color: rgb(49, 59, 77) !important;
   width: 3000px;
 }
+
 /* validate section end */
 
 
