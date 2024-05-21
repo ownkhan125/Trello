@@ -1,0 +1,459 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+
+
+body {
+  font-family: "Cairo", sans-serif;
+}
+
+.container-1 {
+  max-width: 1140px;
+
+}
+
+.nav-section {
+  background-color: white;
+  box-shadow: rgba(9, 30, 66, 0.15) 0px 0.5rem 1rem;
+  z-index: 99;
+
+}
+
+
+
+.top-section {
+  background-color: rgb(222, 235, 255);
+}
+
+.hero-section {
+  background: url('/asset/images/white-wave-bg.svg') center bottom -0.5px / 100% 14% no-repeat scroll padding-box border-box, linear-gradient(60deg, rgb(82, 67, 170), rgb(237, 80, 180)) 0% 0% / auto repeat scroll padding-box border-box rgb(82, 67, 170);
+}
+
+.hero-section .img-wraper {
+  aspect-ratio: 1/1;
+  overflow: hidden;
+}
+
+.productivity-section {
+  background: linear-gradient(0deg, rgb(230, 252, 255), rgb(255, 255, 255)) 0% 0% / auto repeat scroll padding-box border-box rgb(178, 212, 255);
+
+}
+
+.productivity-section .img-wraper {
+  aspect-ratio: 16/9;
+}
+
+.productivity-section .mySlides {
+  display: none;
+}
+
+.productivity-section .active-slide {
+  display: block;
+}
+
+
+
+.workflow-section .card {
+  border-radius: 10px;
+  box-shadow: rgba(9, 30, 66, 0.15) 0px 0.5rem 1rem 0px;
+  height: auto;
+  transform: scale(1);
+  transition: 0.2s all;
+
+}
+
+.workflow-section .card:hover {
+
+  box-shadow: rgba(9, 30, 66, 0.15) 0px 1.5rem 2rem 0px;
+  transition: 0.2s all;
+  cursor: pointer;
+  transform: scale(1);
+
+}
+
+.workflow-section .card .card-header {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+}
+
+.project-section {
+  background: url('/asset/images/ViewsBackground_Left_Narrow\ \(1\).svg') right center / contain no-repeat scroll padding-box border-box, linear-gradient(240deg, rgb(0, 184, 217), rgb(0, 101, 255)) 0% 0% / auto repeat scroll padding-box border-box rgb(0, 101, 255);
+  background-blend-mode: normal, normal, normal;
+  color: rgb(255, 255, 255);
+}
+
+.project-section .img-wraper {
+  aspect-ratio: 16/9;
+}
+
+.project-section .card {
+  box-shadow: rgba(9, 30, 66, 0.15) 0px 0.5rem 1rem 0px;
+
+}
+
+.feature-section .img-wraper {
+  /* aspect-ratio: 1/1; */
+  max-width: 150px;
+}
+
+body .feature-section .card {
+  background-color: rgb(249, 249, 249);
+  border-radius: 10px;
+  cursor: pointer;
+
+}
+
+body .feature-section .card img {
+  transition: 0.2s all;
+}
+
+.feature-section .card:hover img {
+  transform: scale(1.2);
+}
+
+body .validate-section {
+  background: linear-gradient(0deg, rgb(230, 252, 255), rgb(255, 255, 255)) 0% 0% / auto no-repeat scroll padding-box border-box transparent;
+}
+
+body .validate-section .card {
+  box-shadow: rgba(9, 30, 66, 0.2) 0px 3px 5px, rgba(9, 30, 66, 0.31) 0px 0px 1px;
+  border-radius: 10px;
+
+}
+
+.priced-section {
+  background: linear-gradient(rgb(230, 252, 255), rgb(255, 255, 255)) 0% 0% / auto no-repeat scroll padding-box border-box transparent;
+}
+
+.priced-section .card {
+  border: 1px solid rgb(203, 202, 202);
+  background-color: white;
+}
+
+.priced-section .card:hover {
+  border: 1px solid rgb(90, 90, 242);
+  cursor: pointer;
+}
+
+.team-section .logo-wraper {
+  max-width: 100px;
+}
+
+.email-section {
+  background: url('/asset/images/BigSwingFooterHeroGraphic__Left.svg') left center / contain no-repeat scroll padding-box border-box, url('/asset/images/BigSwingFooterHeroGraphic__Right.svg') right center / contain no-repeat scroll padding-box border-box, linear-gradient(60deg, rgb(82, 67, 170), rgb(237, 80, 180)) 0% 0% / auto repeat scroll padding-box border-box rgb(82, 67, 170);
+}
+
+.footer-section {
+  background-color: rgb(23, 43, 77);
+  color: rgb(255, 255, 255);
+}
+
+.footer-section .logo-wraper {
+  max-width: 10px;
+}
+
+.footer-section .card:hover {
+  background-color: rgb(52, 69, 99);
+  cursor: pointer;
+
+}
+
+
+
+.swiper-btn {
+  background-color: rgb(226, 223, 223);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.swiper-btn::after {
+  content: none;
+}
+
+body h1 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.25;
+
+}
+
+body h2 {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1.33;
+
+}
+
+body h3 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.25;
+
+}
+
+body h4 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.25;
+
+}
+
+p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5;
+
+}
+
+.fs-48 {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.fs-24 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.fs-16 {
+  font-size: 16px;
+
+}
+
+.fs-14 {
+  font-size: 14px;
+
+}
+
+.fs-12 {
+  font-size: 12px;
+
+}
+
+.btn {
+  border: 1px solid rgb(90, 90, 242);
+  border-radius: 5px;
+  transition: 0.2s linear;
+
+}
+
+.btn-primary {
+  color: rgb(23, 43, 77) !important;
+  background-color: rgb(255, 255, 255);
+}
+
+.btn:hover {
+  transition: 0.2s linear;
+  background-color: rgb(223, 224, 230);
+  transition: 0.2s linear;
+}
+
+.btn-2 {
+  background-color: rgb(0, 101, 255);
+  color: white;
+  border-radius: 5px;
+  transition: 0.2s linear;
+
+}
+
+.btn-2:hover {
+  transition: 0.2s linear;
+  background-color: rgb(2, 61, 150);
+}
+
+
+.bg-orange {
+  background-color: rgb(255, 116, 82);
+}
+
+.text-orange {
+  color: rgb(255, 116, 82);
+
+}
+
+.bg-blue {
+  background: rgb(38, 132, 255);
+}
+
+.text-blue {
+  color: rgb(38, 132, 255);
+
+}
+
+.bg-green {
+  background: rgb(87, 217, 163);
+}
+
+.text-green {
+  color: rgb(87, 217, 163);
+
+}
+
+.bg-yellow {
+  background: rgb(255, 196, 0);
+}
+
+.text-yellow {
+  color: rgb(255, 196, 0);
+
+}
+
+.bg-light {
+
+  background: rgb(0, 199, 229);
+}
+
+.text-light {
+  color: rgb(0, 199, 229);
+
+}
+
+.bg-pink {
+  background: rgb(249, 156, 219);
+}
+
+body .bg-color {
+  background: linear-gradient(60deg, rgb(101, 84, 192), rgb(249, 156, 219)) 0% 0% / auto repeat scroll padding-box border-box rgb(101, 84, 192);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.text-pink {
+  color: rgb(249, 156, 219);
+
+}
+
+.apply {
+  background-color: rgb(255, 255, 255);
+  color: rgb(9, 30, 66);
+  box-shadow: rgba(9, 30, 66, 0.15) 0px 0.5rem 1rem 0px;
+  border-radius: 0.3rem;
+  border: 0px;
+  /* height: 100%; */
+  /* padding: 1rem 1rem 1rem 1.5rem; */
+  /* position: relative; */
+  text-align: left;
+
+}
+
+
+
+@media(max-width: 1023px) {
+
+  body h1 {
+    font-size: 40px;
+
+  }
+
+  body h2 {
+    font-size: 30px;
+
+  }
+
+  body h3 {
+    font-size: 20px;
+
+  }
+
+
+  p {
+    font-size: 18px;
+
+  }
+
+  .fs-48 {
+    font-size: 40px;
+
+  }
+
+  .fs-24 {
+    font-size: 22px;
+  }
+
+  body .bg-color {
+
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 10px;
+  }
+
+  body .open {
+    height: 100%;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+
+
+  }
+
+}
+
+
+
+@media(max-width:767px) {
+
+  body h1 {
+    font-size: 36px;
+
+  }
+
+  body h2 {
+    font-size: 28px;
+
+  }
+
+  body h3 {
+    font-size: 18px;
+
+  }
+
+  .fs-48 {
+    font-size: 36px;
+
+  }
+
+  .fs-24 {
+    font-size: 20px;
+  }
+
+  .email-section {
+    background: linear-gradient(60deg, rgb(82, 67, 170), rgb(237, 80, 180)) 0% 0% / auto repeat scroll padding-box border-box rgb(82, 67, 170);
+  }
+
+
+
+
+
+}
+
+@media(max-width:350px) {
+
+  body h1 {
+    font-size: 30px;
+
+  }
+
+  body h2 {
+    font-size: 24px;
+
+  }
+
+  body h3 {
+    font-size: 16px;
+
+  }
+
+  .fs-48 {
+    font-size: 30px;
+
+  }
+
+  .fs-24 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 14px;
+
+  }
+
+}
