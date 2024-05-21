@@ -171,6 +171,7 @@ body .validate-section .card {
   width: 30px;
   height: 30px;
   border-radius: 50%;
+  margin-top: 0;
 }
 
 .swiper-btn::after {
@@ -347,9 +348,6 @@ body .bg-color {
 /* validate section start */
 .swiper-btn {
   color: rgb(122, 134, 154);
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .swiper-btn:hover {
@@ -358,7 +356,6 @@ body .bg-color {
 
 .validate-section .swiper-pagination-bullet .swiper-pagination-bullet-active {
   background-color: rgb(49, 59, 77) !important;
-  width: 3000px;
 }
 
 /* validate section end */

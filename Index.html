@@ -131,11 +131,11 @@
 
     <!-- Start Hero-section -->
 
-    <section class="hero-section py-[64px]">
+    <section class="hero-section   pt-[35px] lg:pt-[150px]">
         <div class="container-1 mx-auto px-4">
-            <div class="flex flex-col lg:flex-row items-center">
+            <div class="flex flex-col lg:flex-row ">
                 <div class="w-[100%] sm:w-[70%] lg:w-[45%]">
-                    <div class="flex flex-col gap-y-5">
+                    <div class="flex flex-col gap-y-5 ">
                         <h1 class="text-white">
                             Trello brings all your tasks, teammates, and tools together
                         </h1>
@@ -155,10 +155,12 @@
                                 class="fa-regular fa-circle-play text-white"></i></a>
                     </div>
                 </div>
-                <div class="w-[100%] sm:w-[70%] lg:w-[55%] mt-[50px]">
+                <div class="w-[100%] sm:w-[70%] lg:w-[55%]">
+                    <div class="flex items-center">
                     <div class="img-wraper">
-                        <img src="/asset/images/TrelloUICollage_4x.webp" alt="" class="h-[100%] w-[100%] object-contain"/>
+                        <img src="/asset/images/TrelloUICollage_4x.webp" alt="" />
                     </div>
+                </div>
                 </div>
             </div>
         </div>
@@ -169,7 +171,7 @@
     <!-- Start Productivity-section -->
     <section class="productivity-section">
         <div class="container-1 mx-auto py-[32px] lg:py-[64px] px-4">
-            <div class="w-[100%] md:w-[50%] flex flex-col gap-y-5 my-5">
+            <div class="w-[100%] lg:w-[50%] flex flex-col gap-y-5 my-5 ">
                 <p class="fs-16 font-bold">Trello 101</p>
                 <h2>A productivity powerhouse</h2>
                 <p>
@@ -546,19 +548,19 @@
     <section class="validate-section">
         <div class="container-1 mx-auto px-4 py-[32px] lg:py-[64px]">
             <div class="w-[100%] p-5 overflow-hidden">
-                <div class="flex flex-row my-2 justify-end gap-5 mb-5">
+                <div class="flex flex-row justify-end gap-5 mb-2">
                     <!-- If we need pagination -->
                     <div class="swiper-pagination static"></div>
 
-                    <div class="btn-wrapper flex gap-3">
-                        <div class="swiper-btn swiper-button-prev static">
+                    <div class="flex flex-row gap-2 items-center">
+                        <div class="swiper-btn swiper-button-next flex justify-center items-center  static">
                             <i class="fa-solid fa-less-than"></i>
                         </div>
-                        <div class="swiper-btn swiper-button-next static">
+                        <div class="swiper-btn swiper-button-next flex justify-center items-center static">
                             <i class="fa-solid fa-greater-than"></i>
                         </div>
                     </div>
-                </div>
+                    </div>
 
                 <!-- Slider main container -->
                 <div class="swiper overflow-visible">
