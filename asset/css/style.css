@@ -14,6 +14,13 @@ body {
   background-color: white;
   box-shadow: rgba(9, 30, 66, 0.15) 0px 0.5rem 1rem;
   z-index: 99;
+  transition: 0.2s linear;
+
+}
+
+.nav-section ul a:hover {
+  color: blue;
+  transition: 0.2s linear;
 
 }
 
